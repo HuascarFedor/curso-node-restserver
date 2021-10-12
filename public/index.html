@@ -48,7 +48,7 @@
                 .then( resp => {
                     console.log(resp)
                     localStorage.setItem( 'email', resp.usuario.correo )
-                    location.reload();
+                    //location.reload();
                 })
                 .catch( console.warm );
         }
